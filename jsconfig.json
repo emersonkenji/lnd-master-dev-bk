@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@styles/*": ["styles/*"],
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*", "page-dashboard/src/jsconfig.json"],
+  "exclude": ["node_modules", "dist", "assets", "vendor", ".backup"]
+}

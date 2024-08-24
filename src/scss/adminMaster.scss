@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+#wpbody {
+  margin: 0px 0px 0px -20px !important;
+  font-family: 'Rubik', sans-serif;
+  // margin-left: -21px !important;
+}
+
+
+.react-plugin {
+  display: flex;
+
+  justify-content: center;
+
+  padding: 1.5rem;
+}
+
+.plataforma {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.loading {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .cardContainer {
+    background-color: #1D3461;
+    display: flex;
+    width: 18%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+
+  }
+
+}
+
+.plataformaPagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalProduts {
+  p {
+    color: #1D3461;
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+}
+
+.ajax_load {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+
+.ajax_load_box {
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.ajax_load_box_circle {
+  border: 16px solid #e3e3e3;
+  border-top: 16px solid #1d9bd1;
+  border-radius: 50%;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+
+  -webkit-animation: spin 1.2s linear infinite;
+  -o-animation: spin 1.2s linear infinite;
+  animation: spin 1.2s linear infinite;
+}
+
+.ajax_load_box_title {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/*DEFAULT LOAD MODAL*/
+.ajax_load_modal {
+  // display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+
+.ajax_load_box_modal {
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.ajax_load_box_circle_modal {
+  border: 16px solid #e3e3e3;
+  border-top: 16px solid #1d9bd1;
+  border-radius: 50%;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+
+  -webkit-animation: spin 1.2s linear infinite;
+  -o-animation: spin 1.2s linear infinite;
+  animation: spin 1.2s linear infinite;
+}
+
+.ajax_load_box_title {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingReact {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+
+  .loading {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+}
+
+.lnd-header {
+  background-color: #102C4E;
+
+  .row {
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  button#lnd-update-catalogo {
+    background-color: #cfa42b;
+    color: #fff;
+    border: none;
+    padding: 8px 35px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.filterTwo {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  .filterCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+}
+
+.filter-buttons{
+  margin-right: 10px;
+  display: flex;
+
+
+}
+.filter-button {
+  background-color: #ffffff20;
+  color: #102C4E;
+  border: 1px solid #102C4E;
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 3px;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+}
+
+.filter-button.active{
+  background-color: #102C4E;
+  color: #ffffff;
+  border: 1px solid #102C4E;
+}
+
+.filter-buttons-two {
+  display: flex;
+}
+
+.totalProduts {
+  display: flex;
+    align-items: center;
+    flex-direction: row;
+  p {
+    // font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  span {
+    // font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

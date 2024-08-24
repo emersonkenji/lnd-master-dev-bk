@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LND Master Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-10 17:13+0000\n"
+"PO-Revision-Date: 2023-02-10 17:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: lnd-master-dev"
+
+#: App/License/LndAutoUpdate.php:200
+msgid " Click here to access your account"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:14
+msgid " from our library and start creating amazing websites."
+msgstr ""
+
+#: App/View/LND_View_Settings.php:100
+msgid "About"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:30 App/View/LND_View_Prices.php:48
+#: App/View/LND_View_Prices.php:66 App/View/LND_View_Prices.php:94
+#: App/View/LND_View_Prices.php:112 App/View/LND_View_Prices.php:130
+msgid "Access to landing pages"
+msgstr ""
+
+#: App/Plugin.php:236
+msgid "ACTIVATE"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:72
+msgid "Activate"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:82
+msgid "Activate license"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:77
+msgid "activated"
+msgstr ""
+
+#: App/Plugin.php:241
+msgid "ACTIVE"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:33
+msgid "Adicionado"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:78
+msgid "Agency Plans"
+msgstr ""
+
+#: App/Admin/Admin.php:91
+msgid "All"
+msgstr ""
+
+#: App/View/LND_View_Settings.php:74
+msgid "All "
+msgstr ""
+
+#: App/Plugin.php:246
+msgid "Ativar plugin"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:29
+msgid "Atualizado"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:126 App/View/LND_Get_Itens.php:131
+#: App/View/LND_Get_Itens.php:135 App/View/LND_Get_Itens.php:139
+#: App/View/LND_Get_Itens.php:143 App/View/LND_Get_Itens.php:147
+msgid "Baixar Agora"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:103
+msgid "Basico"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:32 App/View/LND_View_Prices.php:50
+#: App/View/LND_View_Prices.php:68 App/View/LND_View_Prices.php:96
+#: App/View/LND_View_Prices.php:114 App/View/LND_View_Prices.php:132
+msgid "Buy now"
+msgstr ""
+
+#. Description of the plugin
+msgid "Controle e ultilitarios do site LND"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:199
+msgid "Copy and paste your license into license code"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:242
+msgid "Data"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:164
+msgid "Delete"
+msgstr ""
+
+#: App/Plugin.php:258 App/View/LND_View_Card.php:39
+#: App/View/LND_View_Card.php:83
+msgid "Demonstration"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:109
+msgid "Diamante"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:75
+msgid "Do you have an agency?"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:27
+#: App/View/Configuration/Page_Master_Downloads.php:154
+msgid "Downloads"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:212
+msgid "Email Address"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:210
+msgid "Email address"
+msgstr ""
+
+#. Author of the plugin
+msgid "Emerson Takada"
+msgstr ""
+
+#: App/LND_Core.php:365
+msgid "Error sending some variable."
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:28
+msgid "Filepath"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:26
+msgid "For 1 site"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:62
+msgid "For 10 site"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:108
+msgid "For 100 site"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:126
+msgid "For 1000 site"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:44
+msgid "For 5 site"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:90
+msgid "For 50 site"
+msgstr ""
+
+#: App/Admin/Admin.php:97
+msgid "Free"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:105
+msgid "Gold"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:233
+msgid "Grátis"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://lojanegociosdigital.com.br/"
+msgstr ""
+
+#: App/Plugin.php:233
+msgid "INSTALL"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:69
+msgid "Install"
+msgstr ""
+
+#: App/Admin/Admin.php:103
+msgid "Installed"
+msgstr ""
+
+#: App/View/LND_View_Settings.php:75
+msgid "Installed "
+msgstr ""
+
+#: App/Plugin.php:151 App/Theme.php:144
+msgid "Installed: "
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:92
+msgid "Invalid"
+msgstr ""
+
+#: App/Admin/Admin.php:143
+msgid "Item Name"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:206
+msgid "License code"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:106
+msgid "License Expired on"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:99
+msgid "License Type"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:111
+msgid "LND Biblioteca"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:82
+msgid "LND Library License Info"
+msgstr ""
+
+#: App/LND_Core.php:131 App/LND_Core.php:132
+msgid "LND Master"
+msgstr ""
+
+#. Name of the plugin
+msgid "LND Master Plugin"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:156
+msgid "Minha Conta"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:165
+msgid "Move to Draft"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:201 App/View/LND_View_Settings.php:24
+#: App/View/LND_View_Settings.php:58
+msgid "My Account"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:26
+msgid "Name"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:191
+msgid "Needed activation to release the entire library"
+msgstr ""
+
+#: App/Plugin.php:167
+msgid "New"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:243
+msgid "Nome"
+msgstr ""
+
+#: App/LND_Core.php:188
+msgid "Número de itens por página:"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:14
+msgid "Open all the premium content"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:15
+msgid "Plans"
+msgstr ""
+
+#: App/View/LND_View_Settings.php:107 App/View/Pages/Page_Plataforma.php:237
+msgid "Plugins"
+msgstr ""
+
+#: App/Admin/Admin.php:112
+msgid "Plugins "
+msgstr ""
+
+#: App/View/LND_View_Prices.php:28 App/View/LND_View_Prices.php:46
+#: App/View/LND_View_Prices.php:64 App/View/LND_View_Prices.php:92
+#: App/View/LND_View_Prices.php:110 App/View/LND_View_Prices.php:128
+msgid "Priority support"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:107
+msgid "Profissional"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:166
+msgid "Publish All"
+msgstr ""
+
+#: App/Admin/Admin.php:126
+msgid "Reset filters"
+msgstr ""
+
+#: App/Admin/Admin.php:160 App/View/LND_View_Settings.php:81
+#: App/View/Pages/Page_Plataforma.php:275
+msgid "Search..."
+msgstr ""
+
+#: lnd-master-dev.php:102
+msgid "Settings"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:87
+#: App/View/Configuration/Page_Master_Downloads.php:32
+msgid "Status"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:119
+msgid "Support Expired on"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:238
+msgid "Temas"
+msgstr ""
+
+#: App/View/LND_View_Settings.php:114
+msgid "Themes"
+msgstr ""
+
+#: App/Admin/Admin.php:119
+msgid "Themes "
+msgstr ""
+
+#: App/View/LND_View_Prices.php:29 App/View/LND_View_Prices.php:47
+#: App/View/LND_View_Prices.php:65 App/View/LND_View_Prices.php:93
+#: App/View/LND_View_Prices.php:111 App/View/LND_View_Prices.php:129
+msgid "Thousands of templates"
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:30
+msgid "Tipo"
+msgstr ""
+
+#: App/Admin/Admin.php:183 App/View/Pages/Page_Plataforma.php:264
+msgid "Todas Categorias"
+msgstr ""
+
+#: App/View/Pages/Page_Plataforma.php:232
+msgid "Todos"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:27 App/View/LND_View_Prices.php:45
+#: App/View/LND_View_Prices.php:63 App/View/LND_View_Prices.php:91
+#: App/View/LND_View_Prices.php:109 App/View/LND_View_Prices.php:127
+msgid "Unlimited downloads"
+msgstr ""
+
+#: App/Plugin.php:239
+msgid "UPDATE"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:75
+msgid "Update"
+msgstr ""
+
+#: App/View/LND_View_Settings.php:20
+msgid "Update Catalog"
+msgstr ""
+
+#: App/Admin/Admin.php:137
+msgid "Update Date"
+msgstr ""
+
+#: App/Plugin.php:148 App/Theme.php:142
+msgid "Update to: "
+msgstr ""
+
+#: App/Plugin.php:256
+msgid "Updated: "
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:90
+msgid "Valid"
+msgstr ""
+
+#: App/View/LND_Get_Itens.php:151
+msgid "Ver Mais"
+msgstr ""
+
+#: App/LND_Core.php:314
+msgid "Verification error."
+msgstr ""
+
+#: App/Plugin.php:155 App/Theme.php:147 App/View/LND_Get_Itens.php:111
+msgid "Version: "
+msgstr ""
+
+#: App/View/Configuration/Page_Master_Downloads.php:31
+msgid "Versão"
+msgstr ""
+
+#: App/View/LND_View_Settings.php:61
+msgid "View More"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:12
+msgid "Want to activate all the content?"
+msgstr ""
+
+#: App/View/LND_View_Prices.php:13 App/View/LND_View_Prices.php:76
+msgid "We have a special offer for you!"
+msgstr ""
+
+#: App/License/LndAutoUpdate.php:132
+msgid "Your License Key"
+msgstr ""

@@ -1,0 +1,292 @@
+.card-sl {
+   
+    margin-bottom: 1rem;
+    // background-color: #fff;
+    // padding: 5px;
+}
+
+.card-image img {
+    
+    border-radius: 5px 5px 0px 0px;
+      // max-width: 100%;
+      width:100%;
+      height:100px;
+    //  object-fit: cover;
+}
+
+
+.card-heading {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+spam.badge.border.border-white.bg-light.text-success.rounded-1 {
+  color: #139649;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 2px 6px;
+  border-radius: 2px !important;
+}
+
+spam.badge.border.border-white.bg-light.text-primary.rounded-1 {
+  color: #134696;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 2px 6px;
+  border-radius: 2px !important;
+}
+
+spam.badge.border.border-white.bg-light.text-danger.rounded-1 {
+  color: #cb3838;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 2px 6px;
+  border-radius: 2px !important;
+}
+
+// .card-text {
+//     max-height: 200px;
+//     padding: 10px 15px;
+//     background: #fff;
+//     font-size: 14px;
+//     color: #636262;
+// }
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #1F487E;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.card-button:hover {
+    text-decoration: none;
+    background-color: #476cb5;
+    color: #fff;
+
+}
+
+
+@-webkit-keyframes pulse {
+    0% {
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    70% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+    }
+
+    100% {
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+    }
+}
+
+
+
+.card-text {
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica,
+      Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    text-size-adjust: 0.2px;
+    padding: 0 10px;
+    color: #fff;
+    
+  }
+  
+  // .card-text p:first-of-type:first-letter {
+  //   font-size: 1.8em;
+  //   font-family: Georgia, Times, serif;
+  //   margin-right: 0.05em;
+  // }
+  
+  @media (min-width: 480px) {
+    .card-text {
+      overflow: auto;
+      max-height: 20rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--aqua) var(--violet);
+    }
+  
+    .card-text::-webkit-scrollbar {
+      width: 12px;
+    }
+  
+    .card-text::-webkit-scrollbar-track {
+      background: var(--violet);
+    }
+  
+    .card-text::-webkit-scrollbar-thumb {
+      background-color: var(--aqua);
+    }
+  }
+  
+  .card-text strong {
+    color: var(--aqua);
+  }
+
+  .card-text:focus,
+.card:focus {
+  outline: 2px dashed var(--aqua);
+}
+
+
+
+/*
+*botao download
+*/
+.card-action {
+  position: relative;
+  float: right;
+  margin-top: -20px;
+  margin-right: 0px;
+  z-index: 2;
+  color: #102c4e;
+  background: #fff;
+  border-radius: 100%;
+  padding: 8px 10px 8px 10px;
+  font-size: 18px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.card-action:hover {
+  color: #fff;
+  background: #102c4e;
+  -webkit-animation: pulse 1.5s infinite;
+}
+
+/*
+*botao install
+*/
+.card-button-install {
+  /* display: flex; */
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: Rubik;
+  /* background: linear-gradient(0deg, rgb(20, 59, 167) 0%, rgb(102, 194, 247) 100%); */
+  /* background: #33a4d9; */
+  background: #6ca727;
+  color: #fff;
+  border-width: 0px;
+}
+
+.card-button-install:hover {
+  text-decoration: none;
+  background: #83b549;
+  color: #fff;
+
+}
+
+/*
+*botao active
+*/
+.card-button-active:disabled {
+  display: flex;
+  /* font-weight: bolder; */
+  font-size: 20px;
+  font-style: normal;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: Rubik;
+  /* background: rgb(255 255 255); */
+  color: #fff;
+  border-width: 0px;
+}
+
+/*
+*botao update
+*/
+.card-button-update {
+  /* display: flex; */
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: Rubik;
+  background: rgb(207, 30, 30);
+  color: #fff;
+  border-width: 0px;
+}
+
+.card-button-update:hover {
+  text-decoration: none;
+  /* background-color: #1D3461; */
+  background: rgb(212, 64, 64);
+  color: #fff;
+
+}
+
+/*
+*botao activate
+*/
+.card-button-activate {
+  /* display: flex; */
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: Rubik;
+  background: rgb(20, 109, 153);
+  color: #fff;
+  border-width: 0px;
+}
+
+.card-button-activate:hover {
+  text-decoration: none;
+  /* background-color: #1D3461; */
+  background: rgb(52, 133, 173);
+  color: #fff;
+
+}
+
+/*
+*botao activate key
+*/
+.card-button-activate-key {
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: center;
+  font-family: Rubik;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  background: rgb(222, 32, 32);
+  color: #fff;
+  border-width: 0
+}
+
+.card-button-activate-key:hover {
+  text-decoration: none;
+  background: rgb(227, 63, 63);
+  color: #fff
+}
